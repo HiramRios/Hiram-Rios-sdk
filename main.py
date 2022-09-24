@@ -1,5 +1,5 @@
 
-from funcions import *
+from functions import *
 print("------------------------get all the informtaion for lord of the rings books ------------------------------------------")
 print( get_book())
 print("-------------------------------------get book information based on id -----------------------------")
