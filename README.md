@@ -37,3 +37,9 @@ type command "python3" to enter the python mode to call commands
 type command "from Hiram_sdk_the_one.functions import * " to acess the fucntions
 
 type any command function like "print(get_book())"
+
+
+
+
+Functions and operations:
+

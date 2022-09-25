@@ -12,14 +12,20 @@ print(get_movies())
 print("-----------------------------------get the movies based on id -------------------------------")
 string_numbers = "5cd95395de30eff6ebccde5d"
 print( get_movie_id(string_numbers))
-print("----------------------------------get the selection of a movie quote --------------------------------")
-print( get_movie_quote(string_numbers))
-# print("---------------------------------get the selection of a character ---------------------------------")
-# print( get_character())
-# print("-----------------------------------get character based on id -------------------------------")
-# string_numbersCh = "5cd99d4bde30eff6ebccfbda"
-# print( get_character_id(string_numbersCh))
-# print("---------------------------------get quotes---------------------------------")
-# print( get_quote())
-# print("------------------------------------get chapters------------------------------")
-# print( get_chapter())
+# print("----------------------------------get the selection of a movie quote --------------------------------")
+# print( get_movie_quote(string_numbers))
+print("---------------------------------get the selection of a character ---------------------------------")
+print( get_character())
+print("-----------------------------------get character based on id -------------------------------")
+string_numbersCh = "5cd99d4bde30eff6ebccfbda"
+print( get_character_id(string_numbersCh))
+print("---------------------------------get quotes---------------------------------")
+print( get_quote())
+print("------------------------------------get chapters------------------------------")
+print( get_chapter())
+print("------------------------------------Filter Character and Book------------------------------")
+types = "name"
+name = "Gandalf"
+name_book = "The Two Towers"
+print(get_book_filter(types,name_book))
+print(get_character_filter(types,name))

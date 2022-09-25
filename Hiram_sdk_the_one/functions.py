@@ -31,7 +31,12 @@ def get_book():
           bookDict[id] = name    
         return bookDict
 
-
+def get_book_filter(types, name ):
+    api_url_base = "https://the-one-api.dev/v2/book?" + types + "=" + name
+    response = requests.get(api_url_base, headers=headers)
+    if response.status_code == 200: 
+        book = response.json()['docs']   
+        return book
       
       
 def get_book_id(string_number):
@@ -105,6 +110,13 @@ def get_character():
           id = d['_id']
           charDict[id] = name    
         return charDict
+
+def get_character_filter(types, name ):
+    api_url_base = "https://the-one-api.dev/v2/character?" + types + "=" + name
+    response = requests.get(api_url_base, headers=headers)
+    if response.status_code == 200: 
+        char = response.json()['docs']   
+        return char
 
 def get_character_id(string_number):
     api_url_base = "https://the-one-api.dev/v2/character/"  + string_number
