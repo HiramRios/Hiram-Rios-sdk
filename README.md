@@ -8,7 +8,8 @@ The sdk will have a set of commands that will allow the user to call them to acc
 
 The following image shows a sample of how use the api call functions and a desciption how to use the api and what each api call does. Furthemore the python page shows how to import the functions.py to have access to the calls:
 
-<img width="571" alt="Screen Shot 2022-09-23 at 11 33 17 PM" src="https://user-images.githubusercontent.com/30737409/192119637-bf1b72fe-5d9f-4250-91c7-ead6773e39f6.png">
+<img width="908" alt="Screen Shot 2022-09-25 at 10 34 09 PM" src="https://user-images.githubusercontent.com/30737409/192188894-40cd3661-0bbc-4d9c-9395-a5d5a286f859.png">
+
 
 The following image shows the functions.py Which shows api functions and the logic this can be edited to add more api' calls as well as changing the id token: 
 
